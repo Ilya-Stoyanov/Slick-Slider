@@ -4,9 +4,9 @@
 
 ---
 
-### 1. Скачаем библиотеку jQuuery - compressed version!
+### 1. Скачиваем библиотеку jQuuery - compressed version!
     * code.jquery.com/jquery-3.6.1.min.js
-### 2. Скачаем Slick Slider с фоициального сайта 
+### 2. Скачиваем Slick Slider с фоициального сайта 
     * kenwheeler.github.io/slick/
 ### 3. Подключаем стили
     * первым slick.css
