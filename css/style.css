@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #00bcd4a8;
+}
+
+.container{
+    max-width: 950px;
+    margin: 100px auto 0;
+    background: #6ad4ca40;
+    padding: 100px 0;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+.slider-wrapper {
+    /* width: 300px;
+    margin: 0 auto; */
+}
+
+.btn{
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.slider-btn{
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    z-index: 2;
+    background-color: #dddddd80;
+    padding: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    top: 50%;
+    transform:translateY(-50%)  ;
+    -webkit-transform:translateY(-50%)  ;
+    -moz-transform:translateY(-50%)  ;
+    -ms-transform:translateY(-50%)  ;
+    -o-transform:translateY(-50%)  ;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+
+.slider-btn:hover{
+    background-color: #dddddd;
+}
+
+.slider-prev{
+    left: -50px;
+}
+
+.slider-next{
+    right: -50px;
+}
+
+/* sliders-second  */
+.sliders-two .slider-wrapper{
+    cursor: pointer;
+}
+
+.sliders-two  .slider-wrapper{
+    margin: 10px;
+    padding: 2%;
+}
